@@ -1,0 +1,12 @@
+{
+	"camera_npz": "/home/manthan/whack_game/System.npz",
+	"marker_size": 1,
+	"monkey_visible": 2,
+	"penalty": 1,
+	"award": 2,
+	"past": 5,
+	"chances": 2,
+	"penalty_strength": 0.5,
+	"level2": 5,
+	"level3": 10
+}
