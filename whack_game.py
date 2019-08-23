@@ -7,15 +7,14 @@ class definition of WhackGame
 The program is a state machine with details as follows:
 [Idle state] --> [Start state] --> [end state]
 
-Idle state: the game is just displaying Monkey face at random positions, initially game starts in idle state.
-Start state: the game is displaying Monkey at random positions and monitoring whether the player has hit the monkey
-				in the provided time before the Monkey vanishes, this state arrives as soon as the operator presses
-				"Ctrl+C"
-End state: The game displays an ending message along with the score and ends. This state arrives as soon as the player
-				misses a Monkey.
+Idle state: the game is just displaying Monkey face at random positions, initially game starts in idle
+			state.
+Start state: the game is displaying Monkey at random positions and monitoring whether the player has
+			hit the monkey in the provided time before the Monkey vanishes, this state arrives as soon
+			as the operator presses "Ctrl+C"
+End state: The game displays an ending message along with the score and ends. This state arrives as
+			soon as the player misses a Monkey.
 """
-
-# make sure you install: opencv-contrib-python (uninstall opencv-python), pyopengl on python 3.6.x
 
 import cv2 
 import json
